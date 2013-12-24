@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.cacheStreamer" version="0.1.0" name="cacheStreamer" provider-name="dmdsoftware">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Streams a file down to a local storage file, and streams while the file downloads.</summary>
+        <description>Originally developed to fix a HTTPS streaming issue in XBMC on the Raspberry Pi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

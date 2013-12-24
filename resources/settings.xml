@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="cache_location" type="text" label="30001" default="" />
+    <setting id="cache_file" type="text" label="30003" default="" />
+</settings>
